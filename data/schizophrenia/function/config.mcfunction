@@ -1,9 +1,11 @@
 tellraw @s {"text":"\n--- TwistedMC Configuration ---", "color":"gold"}
 
-
-execute if score #JukeboxTwist TwistConfig matches 0 run tellraw @a ["",{text:"- Jukebox Twist: ",color:"gray"},{text:"[DISABLED]",color:"red",bold:true,click_event:{action:"run_command",command:"/function schizophrenia:twists/jukebox/toggle"},hover_event:{action:"show_text",value:[{text:"Click to Enable",color:"green"}]}}]
-execute if score #JukeboxTwist TwistConfig matches 1 run tellraw @a ["",{text:"- Jukebox Twist: ",color:"gray"},{text:"[ENABLED]",color:"green",bold:true,click_event:{action:"run_command",command:"/function schizophrenia:twists/jukebox/toggle"},hover_event:{action:"show_text",value:[{text:"Click to Disable",color:"red"}]}}]
-
 execute if score #FootstepsTwist TwistConfig matches 0 run tellraw @a ["",{text:"- Footsteps Twist: ",color:"gray"},{text:"[DISABLED]",color:"red",bold:true,click_event:{action:"run_command",command:"/function schizophrenia:twists/footsteps/toggle"},hover_event:{action:"show_text",value:[{text:"Click to Enable",color:"green"}]}}]
 execute if score #FootstepsTwist TwistConfig matches 1 run tellraw @a ["",{text:"- Footsteps Twist: ",color:"gray"},{text:"[ENABLED]",color:"green",bold:true,click_event:{action:"run_command",command:"/function schizophrenia:twists/footsteps/toggle"},hover_event:{action:"show_text",value:[{text:"Click to Disable",color:"red"}]}}]
+
+execute if score #TimeJumpTwist TwistConfig matches 0 run tellraw @a ["",{text:"- TimeJump Twist: ",color:"gray"},{text:"[DISABLED]",color:"red",bold:true,click_event:{action:"run_command",command:"/function schizophrenia:twists/time_jump/toggle"},hover_event:{action:"show_text",value:[{text:"Click to Enable",color:"green"}]}}]
+execute if score #TimeJumpTwist TwistConfig matches 1 run tellraw @a ["",{text:"- TimeJump Twist: ",color:"gray"},{text:"[ENABLED]",color:"green",bold:true,click_event:{action:"run_command",command:"/function schizophrenia:twists/time_jump/toggle"},hover_event:{action:"show_text",value:[{text:"Click to Disable",color:"red"}]}}]
+
+execute if score #MobFlickerSwapTwist TwistConfig matches 0 run tellraw @a ["",{text:"- Mob Switch Twist: ",color:"gray"},{text:"[DISABLED]",color:"red",bold:true,click_event:{action:"run_command",command:"/function schizophrenia:twists/mob_flicker_swap/toggle"},hover_event:{action:"show_text",value:[{text:"Click to Enable",color:"green"}]}}]
+execute if score #MobFlickerSwapTwist TwistConfig matches 1 run tellraw @a ["",{text:"- Mob Switch Twist: ",color:"gray"},{text:"[ENABLED]",color:"green",bold:true,click_event:{action:"run_command",command:"/function schizophrenia:twists/mob_flicker_swap/toggle"},hover_event:{action:"show_text",value:[{text:"Click to Disable",color:"red"}]}}]
 
