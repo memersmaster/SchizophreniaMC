@@ -20,5 +20,6 @@ scoreboard objectives add GlobalJukeboxID dummy [{"text":"Global Jukebox ID Coun
 scoreboard players set #JukeboxTwist TwistConfig 1
 scoreboard players set #FootstepsTwist TwistConfig 1
 scoreboard players set #TimeJumpTwist TwistConfig 1 # Default to enabled
-scoreboard players set #MobFlickerTwist TwistConfig 1
+scoreboard players set #MobFlickerTwist TwistConfig 0 # Disabled by default
+scoreboard players set #MobFlickerSwapTwist TwistConfig 1
 scoreboard players set #NextUniqueID GlobalJukeboxID 1

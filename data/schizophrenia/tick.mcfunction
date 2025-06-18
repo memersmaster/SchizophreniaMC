@@ -13,3 +13,6 @@ execute if score #TimeJumpTwist TwistConfig matches 1 if predicate schizophrenia
 
 # --- Mob Flicker Twist ---
 execute if score #MobFlickerTwist TwistConfig matches 1 if predicate schizophrenia:random_chance_mob_flicker run function schizophrenia:twists/mob_flicker/logic
+
+# --- Mob Flicker SWAP Twist ---
+execute if score #MobFlickerSwapTwist TwistConfig matches 1 if predicate schizophrenia:random_chance_mob_flicker_swap run function schizophrenia:twists/mob_flicker_swap/logic
