@@ -9,6 +9,9 @@ scoreboard objectives add TempVariable dummy [{"text":"TempVariable"}]
 # Objective to track when a player uses a jukebox.
 # Objective to track footsteps twist state
 scoreboard objectives add JukeboxUse minecraft.custom:minecraft.play_record
+scoreboard objectives add PlayerJukeboxDelay dummy [{"text":"Jukebox Sound Delay Timer"}]
+scoreboard objectives add JukeboxTracked dummy [{"text":"Jukebox Tracking ID"}]
+scoreboard objectives add GlobalJukeboxID dummy [{"text":"Global Jukebox ID Counter"}]
 
 
 # --- Default Twist Configurations ---
@@ -16,3 +19,6 @@ scoreboard objectives add JukeboxUse minecraft.custom:minecraft.play_record
 # This is where you would add a line for any new twist you create.
 scoreboard players set #JukeboxTwist TwistConfig 1
 scoreboard players set #FootstepsTwist TwistConfig 1
+scoreboard players set #TimeJumpTwist TwistConfig 1 # Default to enabled
+scoreboard players set #MobFlickerTwist TwistConfig 1
+scoreboard players set #NextUniqueID GlobalJukeboxID 1

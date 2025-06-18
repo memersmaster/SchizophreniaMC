@@ -1,2 +1,3 @@
-execute as @a[scores={JukeboxUse=1..}] if predicate schizophrenia:random_chance_5_percent run playsound schizophrenia:twist.jukebox_glitch master @s
-scoreboard players set @a[scores={JukeboxUse=1..}] JukeboxUse 0
+# Main logic for jukebox twist - called from tick.mcfunction if JukeboxTwist is enabled.
+# This function is responsible for initiating the sequence when a player uses a jukebox.
+execute as @a[scores={JukeboxUse=1..}] run function schizophrenia:twists/jukebox/init_delay
