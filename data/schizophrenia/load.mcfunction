@@ -14,11 +14,11 @@ scoreboard objectives add JukeboxTracked dummy [{"text":"Jukebox Tracking ID"}]
 scoreboard objectives add GlobalJukeboxID dummy [{"text":"Global Jukebox ID Counter"}]
 
 
+scoreboard players set #NextUniqueID GlobalJukeboxID 1
 # --- Default Twist Configurations ---
 # Set the default state for each twist. 1 is enabled, 0 is disabled.
 # This is where you would add a line for any new twist you create.
 scoreboard players set #JukeboxTwist TwistConfig 1
 scoreboard players set #FootstepsTwist TwistConfig 1
-scoreboard players set #TimeJumpTwist TwistConfig 1 # Default to enabled
+scoreboard players set #TimeJumpTwist TwistConfig 1
 scoreboard players set #MobFlickerTwist TwistConfig 1
-scoreboard players set #NextUniqueID GlobalJukeboxID 1
