@@ -1,5 +1,5 @@
 # Announce reload in chat to operators
-tellraw @s [{"text":"[TwistedMC] ", "color":"gold"}, {"text":"Datapack reloaded successfully!", "color":"yellow"}]
+tellraw @a[tag=op] [{"text":"[TwistedMC] ", "color":"gold"}, {"text":"Datapack reloaded successfully!", "color":"yellow"}]
 
 # --- Scoreboard Setup ---
 # Objective to store the on/off state of each twist. (1 = on, 0 = off)
