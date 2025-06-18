@@ -4,4 +4,3 @@ execute if score #RandomNametag TwistConfig matches 1 run scoreboard players set
 execute if score #RandomNametag TwistConfig matches 0 unless score #TempPlayer TempVariable matches 1 run scoreboard players set #RandomNametag TwistConfig 1 
 
 scoreboard players set #TempPlayer TempVariable 0
-

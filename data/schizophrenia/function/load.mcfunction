@@ -5,7 +5,7 @@ tellraw @a[tag=op] [{"text":"[TwistedMC] ", "color":"gold"}, {"text":"Datapack r
 # Objective to store the on/off state of each twist. (1 = on, 0 = off)
 scoreboard objectives add TwistConfig dummy [{"text":"Twist Toggles"}]
 scoreboard objectives add TempVariable dummy [{"text":"TempVariable"}]
-scoreboard objectives add lookTimer dummy
+scoreboard objectives add RayCast dummy "Raycast Distance"
 
 
 # Objective to track when a player uses a jukebox.
