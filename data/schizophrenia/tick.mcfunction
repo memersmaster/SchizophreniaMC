@@ -1,1 +1,2 @@
 execute if score #JukeboxTwist TwistConfig matches 1 run function schizophrenia:twists/jukebox/logic
+execute if score #FootstepsTwist TwistConfig matches 1 run function schizophrenia:twists/footsteps/logic
