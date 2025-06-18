@@ -1,0 +1,9 @@
+execute as @a at @s anchored eyes positioned ^-1 ^ ^1 run summon armor_stand ~ ~ ~ {Tags:["raytrace_temp"],NoGravity:1b,Marker:1b}
+execute as @a at @s anchored eyes positioned ^ ^ ^1 run summon armor_stand ~ ~ ~ {Tags:["raytrace_temp"],NoGravity:1b,Marker:1b}
+execute as @a at @s anchored eyes positioned ^1 ^ ^1 run summon armor_stand ~ ~ ~ {Tags:["raytrace_temp"],NoGravity:1b,Marker:1b}
+execute as @a at @s anchored eyes positioned ^-1 ^1 ^1 run summon armor_stand ~ ~ ~ {Tags:["raytrace_temp"],NoGravity:1b,Marker:1b}
+execute as @a at @s anchored eyes positioned ^ ^1 ^1 run summon armor_stand ~ ~ ~ {Tags:["raytrace_temp"],NoGravity:1b,Marker:1b}
+execute as @a at @s anchored eyes positioned ^1 ^1 ^1 run summon armor_stand ~ ~ ~ {Tags:["raytrace_temp"],NoGravity:1b,Marker:1b}
+execute as @a at @s anchored eyes positioned ^-1 ^-1 ^1 run summon armor_stand ~ ~ ~ {Tags:["raytrace_temp"],NoGravity:1b,Marker:1b}
+execute as @a at @s anchored eyes positioned ^ ^-1 ^1 run summon armor_stand ~ ~ ~ {Tags:["raytrace_temp"],NoGravity:1b,Marker:1b}
+execute as @a at @s anchored eyes positioned ^1 ^-1 ^1 run summon armor_stand ~ ~ ~ {Tags:["raytrace_temp"],NoGravity:1b,Marker:1b}
