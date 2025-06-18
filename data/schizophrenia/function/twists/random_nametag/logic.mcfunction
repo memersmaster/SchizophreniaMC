@@ -1,0 +1,1 @@
+execute as @r run function schizophrenia:twists/random_nametag/look_check
