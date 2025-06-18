@@ -5,7 +5,7 @@ scoreboard players add #NextUniqueID GlobalJukeboxID 1
 
 # --- Tag Player and Set Delay ---
 tag @s add active_jukebox_user
-scoreboard players set @s PlayerJukeboxDelay 60 # 3 seconds at 20 TPS
+scoreboard players set @s PlayerJukeboxDelay 60
 
 # --- Summon Marker at Jukebox and Assign ID ---
 # Find nearest jukebox, summon marker, tag it, and give it the same JukeboxTracked ID

@@ -4,7 +4,7 @@
 # and to schedule its own cleanup.
 tag @s add flicker_processed_this_tick
 
-# Play a particle effect. squid_ink is subtle. 'witch' or 'angry_villager' are more noticeable.
+# Play a particle effect. squid_ink is subtle. 'witch' or 'angry_villager' are more noticeable.s
 particle minecraft:squid_ink ~ ~0.5 ~ 0.3 0.3 0.3 0.02 25 normal @s
 
 # Schedule the removal of the tag.
