@@ -1,4 +1,4 @@
-tellraw @a[tag=op] [{"text":"[TwistedMC Debug] Spawn Text Anomaly Triggered!", "color":"dark_purple"}]
+tellraw @a[tag=op] [{"text":"[TwistedMC Debug] Spawn Text Anomaly Successfully Ran!", "color":"dark_purple"}]
 
 summon text_display ~ ~ ~ {CustomNameVisible:1b,see_through:1b,Tags:["random_nametag_text_display"],CustomName:{"bold":true,"color":"dark_red","text":"Help Me"}}
 
