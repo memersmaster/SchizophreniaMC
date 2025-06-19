@@ -7,7 +7,7 @@ summon minecraft:husk ^ ^100 ^ {HasVisualFire:0b,NoGravity:1b,Silent:1b,Invulner
 execute as @e[type=husk,tag=temp_flicker_zombie] at @s at @p[gamemode=!spectator] positioned ~ ~100 ~ run rotate @s facing ~ ~ ~
 
 
-schedule function schizophrenia:twists/mob_flicker_swap/zombie_to_mob 2s replace
+schedule function schizophrenia:twists/mob_flicker_swap/teleport_zombie_to_surface 2s replace
 
 
 
