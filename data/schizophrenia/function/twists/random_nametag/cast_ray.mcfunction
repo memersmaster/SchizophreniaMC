@@ -1,5 +1,3 @@
-execute if score ray Steps > MinSteps Steps run particle minecraft:crit ^ ^ ^
-
 scoreboard players remove ray Steps 1
 
 execute if block ^ ^ ^ #schizophrenia:opaque_blocks run return run scoreboard players add ray BlockDetected 1
