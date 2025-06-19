@@ -8,4 +8,4 @@ execute if score #TimeJumpTwist TwistConfig matches 1 if predicate schizophrenia
 execute if score #MobFlickerSwapTwist TwistConfig matches 1 if predicate schizophrenia:mob_swap_twist_chance run function schizophrenia:twists/mob_flicker_swap/logic
 
 # --- Random NameTag Twist ---
-execute if score #RandomNametag TwistConfig matches 1 if predicate schizophrenia:random_nametag_chance at @r anchored eyes positioned ^ ^ ^ run function schizophrenia:twists/random_nametag/logic
+execute if score #RandomNametag TwistConfig matches 1 if predicate schizophrenia:random_nametag_chance at @r anchored eyes positioned ^ ^1.5 ^ run function schizophrenia:twists/random_nametag/logic
