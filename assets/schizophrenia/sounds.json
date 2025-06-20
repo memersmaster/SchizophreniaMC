@@ -1,19 +1,86 @@
 {
-	"message.warning": {
+	"foorsteps.wood": {
 		"subtitle": "subtitle.walk.wood",
 		"sounds": [
 			{
-				"name": "watching:warning",
-				"volume": 0.8,
+				"name": "schizophrenia:footsteps/wood",
+				"volume": 1,
 				"pitch": 1,
 				"weight": 1
 			}
 		]
 	},
-	"event.crash": {
+	"foorsteps.dirt": {
+		"subtitle": "subtitle.walk.dirt",
 		"sounds": [
 			{
-				"name": "watching:crash",
+				"name": "schizophrenia:footsteps/dirt",
+				"volume": 1,
+				"pitch": 1,
+				"weight": 1
+			}
+		]
+	},
+	"foorsteps.gravel": {
+		"subtitle": "subtitle.walk.gravel",
+		"sounds": [
+			{
+				"name": "schizophrenia:footsteps/gravel",
+				"volume": 1,
+				"pitch": 1,
+				"weight": 1
+			}
+		]
+	},
+	"foorsteps.sand": {
+		"subtitle": "subtitle.walk.sand",
+		"sounds": [
+			{
+				"name": "schizophrenia:footsteps/sand",
+				"volume": 1,
+				"pitch": 1,
+				"weight": 1
+			}
+		]
+	},
+	"foorsteps.stone": {
+		"subtitle": "subtitle.walk.stone",
+		"sounds": [
+			{
+				"name": "schizophrenia:footsteps/stone",
+				"volume": 1,
+				"pitch": 1,
+				"weight": 1
+			}
+		]
+	},
+	"foorsteps.snow": {
+		"subtitle": "subtitle.walk.snow",
+		"sounds": [
+			{
+				"name": "schizophrenia:footsteps/snow",
+				"volume": 1,
+				"pitch": 1,
+				"weight": 1
+			}
+		]
+	},
+	"foorsteps.water": {
+		"subtitle": "subtitle.walk.water",
+		"sounds": [
+			{
+				"name": "schizophrenia:footsteps/water",
+				"volume": 1,
+				"pitch": 1,
+				"weight": 1
+			}
+		]
+	},
+	"foorsteps.wool": {
+		"subtitle": "subtitle.walk.wool",
+		"sounds": [
+			{
+				"name": "schizophrenia:footsteps/wool",
 				"volume": 1,
 				"pitch": 1,
 				"weight": 1
