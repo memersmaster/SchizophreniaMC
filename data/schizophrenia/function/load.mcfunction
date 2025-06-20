@@ -17,6 +17,7 @@ scoreboard players set #RandomNametag TwistConfig 1
 scoreboard players set #TimeJumpTwist TwistConfig 1
 scoreboard players set #MobFlickerSwapTwist TwistConfig 1
 scoreboard players set #RandomSounds TwistConfig 1
+scoreboard players set #ReplaceOres TwistConfig 1
 
 
 
@@ -27,6 +28,7 @@ scoreboard players set #RandomNametag Chance 1
 scoreboard players set #TimeJumpTwist Chance 1
 scoreboard players set #MobFlickerSwapTwist Chance 1
 scoreboard players set #RandomSounds Chance 1
+scoreboard players set #ReplaceOres Chance 1
 
 
 schedule function schizophrenia:sanity 1200t replace

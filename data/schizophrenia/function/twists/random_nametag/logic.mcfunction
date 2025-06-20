@@ -1,4 +1,5 @@
 tellraw @a[tag=op] [{"text":"[TwistedMC Debug] Spawn Text Anomaly Triggered!", "color":"dark_purple"}]
+
 scoreboard players set ray BlockDetected 0
 scoreboard players set ray Steps 20
 execute positioned ^-0.8 ^0.8 ^ run function schizophrenia:twists/random_nametag/cast_ray
