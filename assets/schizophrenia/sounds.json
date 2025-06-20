@@ -1,5 +1,5 @@
 {
-	"foorsteps.wood": {
+	"footsteps.wood": {
 		"subtitle": "subtitle.walk.wood",
 		"sounds": [
 			{
@@ -10,7 +10,7 @@
 			}
 		]
 	},
-	"foorsteps.dirt": {
+	"footsteps.dirt": {
 		"subtitle": "subtitle.walk.dirt",
 		"sounds": [
 			{
@@ -21,7 +21,7 @@
 			}
 		]
 	},
-	"foorsteps.gravel": {
+	"footsteps.gravel": {
 		"subtitle": "subtitle.walk.gravel",
 		"sounds": [
 			{
@@ -32,7 +32,7 @@
 			}
 		]
 	},
-	"foorsteps.sand": {
+	"footsteps.sand": {
 		"subtitle": "subtitle.walk.sand",
 		"sounds": [
 			{
@@ -43,7 +43,7 @@
 			}
 		]
 	},
-	"foorsteps.stone": {
+	"footsteps.stone": {
 		"subtitle": "subtitle.walk.stone",
 		"sounds": [
 			{
@@ -54,7 +54,7 @@
 			}
 		]
 	},
-	"foorsteps.snow": {
+	"footsteps.snow": {
 		"subtitle": "subtitle.walk.snow",
 		"sounds": [
 			{
@@ -65,7 +65,7 @@
 			}
 		]
 	},
-	"foorsteps.water": {
+	"footsteps.water": {
 		"subtitle": "subtitle.walk.water",
 		"sounds": [
 			{
@@ -76,7 +76,7 @@
 			}
 		]
 	},
-	"foorsteps.wool": {
+	"footsteps.wool": {
 		"subtitle": "subtitle.walk.wool",
 		"sounds": [
 			{

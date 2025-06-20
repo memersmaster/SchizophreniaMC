@@ -1,1 +1,0 @@
-playsound minecraft:block.stone.step master @s ~3 ~0 ~3 1.5 1.0 1

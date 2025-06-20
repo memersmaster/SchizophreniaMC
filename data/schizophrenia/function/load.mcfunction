@@ -17,4 +17,5 @@ scoreboard players set #FootstepsTwist TwistConfig 1
 scoreboard players set #RandomNametag TwistConfig 1
 scoreboard players set #TimeJumpTwist TwistConfig 1
 scoreboard players set #MobFlickerSwapTwist TwistConfig 1
+scoreboard players set #RandomSounds TwistConfig 1
 
