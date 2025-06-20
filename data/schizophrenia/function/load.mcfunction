@@ -12,12 +12,12 @@ scoreboard objectives add Sanity dummy [{"text":"Sanity"}]
 # --- Default Twist Configurations ---
 # Set the default state for each twist. 1 is enabled, 0 is disabled.
 
-scoreboard players set #FootstepsTwist TwistConfig 1
-scoreboard players set #RandomNametag TwistConfig 1
-scoreboard players set #TimeJumpTwist TwistConfig 1
-scoreboard players set #MobFlickerSwapTwist TwistConfig 1
-scoreboard players set #RandomSounds TwistConfig 1
-scoreboard players set #ReplaceOres TwistConfig 1
+execute unless score #FootstepsTwist TwistConfig matches 0 run scoreboard players set #FootstepsTwist TwistConfig 1
+execute unless score #RandomNametag TwistConfig matches 0 run scoreboard players set #RandomNametag TwistConfig 1
+execute unless score #TimeJumpTwist TwistConfig matches 0 run scoreboard players set #TimeJumpTwist TwistConfig 1
+execute unless score #MobFlickerSwapTwist TwistConfig matches 0 run scoreboard players set #MobFlickerSwapTwist TwistConfig 1
+execute unless score #RandomSounds TwistConfig matches 0 run scoreboard players set #RandomSounds TwistConfig 1
+execute unless score #ReplaceOres TwistConfig matches 0 run scoreboard players set #ReplaceOres TwistConfig 1
 
 
 
