@@ -6,7 +6,8 @@ tellraw @a[tag=op] [{"text":"[TwistedMC] ", "color":"gold"}, {"text":"Datapack r
 scoreboard objectives add TwistConfig dummy [{"text":"Twist Toggles"}]
 scoreboard objectives add TempVariable dummy [{"text":"TempVariable"}]
 scoreboard objectives add Steps dummy [{"text":"Steps"}]
-scoreboard objectives add BlockDetected dummy [{"text":"BlockDetected?"}]
+scoreboard objectives add BlockDetected dummy [{"text":"BlockDetected"}]
+scoreboard objectives add Sanity dummy [{"text":"Sanity"}]
 
 
 # --- Default Twist Configurations ---
@@ -19,3 +20,7 @@ scoreboard players set #TimeJumpTwist TwistConfig 1
 scoreboard players set #MobFlickerSwapTwist TwistConfig 1
 scoreboard players set #RandomSounds TwistConfig 1
 
+
+
+
+schedule function schizophrenia:sanity 1200t replace
