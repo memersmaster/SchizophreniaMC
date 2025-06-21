@@ -24,6 +24,8 @@ execute if score #RandomSounds TwistConfig matches 1 as @a if score @s Chance <=
 
 # --- Replace Ores Twist ---
 execute as @a store result score @s Chance run random value 1..100000
-execute if score #DoorKnocking TwistConfig matches 1 as @a if score @s Chance <= #DoorKnocking Chance run function schizophrenia:twists/random_sounds/logic
+execute if score #DoorKnocking TwistConfig matches 1 as @a if score @s Chance <= #DoorKnocking Chance run function schizophrenia:twists/door_knocking/logic
 
-tellraw @a[team=afkDis.afk] 'You Are AFK'
+# --- Replace Ores Twist ---
+execute as @a store result score @s Chance run random value 1..100000
+execute if score #EntityStare TwistConfig matches 1 as @a if score @s Chance <= #EntityStare Chance run function schizophrenia:twists/entity_stare/logic

@@ -14,3 +14,10 @@ execute if score #RandomNametag TwistConfig matches 1 run tellraw @a ["",{text:"
 
 execute if score #RandomSounds TwistConfig matches 0 run tellraw @a ["",{text:"- Random Sounds Twist: ",color:"gray"},{text:"[DISABLED]",color:"red",bold:true,click_event:{action:"run_command",command:"/function schizophrenia:twists/random_sounds/toggle"},hover_event:{action:"show_text",value:[{text:"Click to Enable",color:"green"}]}}]
 execute if score #RandomSounds TwistConfig matches 1 run tellraw @a ["",{text:"- Random Sounds Twist: ",color:"gray"},{text:"[ENABLED]",color:"green",bold:true,click_event:{action:"run_command",command:"/function schizophrenia:twists/random_sounds/toggle"},hover_event:{action:"show_text",value:[{text:"Click to Disable",color:"red"}]}}]
+
+execute if score #DoorKnocking TwistConfig matches 0 run tellraw @a ["",{text:"- Door Knocking Twist: ",color:"gray"},{text:"[DISABLED]",color:"red",bold:true,click_event:{action:"run_command",command:"/function schizophrenia:twists/door_knocking/toggle"},hover_event:{action:"show_text",value:[{text:"Click to Enable",color:"green"}]}}]
+execute if score #DoorKnocking TwistConfig matches 1 run tellraw @a ["",{text:"- Door Knocking Twist: ",color:"gray"},{text:"[ENABLED]",color:"green",bold:true,click_event:{action:"run_command",command:"/function schizophrenia:twists/door_knocking/toggle"},hover_event:{action:"show_text",value:[{text:"Click to Disable",color:"red"}]}}]
+
+
+execute if score #EntityStare TwistConfig matches 0 run tellraw @a ["",{text:"- Entity Stare Twist: ",color:"gray"},{text:"[DISABLED]",color:"red",bold:true,click_event:{action:"run_command",command:"/function schizophrenia:twists/entity_stare/toggle"},hover_event:{action:"show_text",value:[{text:"Click to Enable",color:"green"}]}}]
+execute if score #EntityStare TwistConfig matches 1 run tellraw @a ["",{text:"- Entity Stare Twist: ",color:"gray"},{text:"[ENABLED]",color:"green",bold:true,click_event:{action:"run_command",command:"/function schizophrenia:twists/entity_stare/toggle"},hover_event:{action:"show_text",value:[{text:"Click to Disable",color:"red"}]}}]
