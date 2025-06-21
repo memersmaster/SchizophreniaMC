@@ -18,6 +18,7 @@ execute unless score #TimeJumpTwist TwistConfig matches 0 run scoreboard players
 execute unless score #MobFlickerSwapTwist TwistConfig matches 0 run scoreboard players set #MobFlickerSwapTwist TwistConfig 1
 execute unless score #RandomSounds TwistConfig matches 0 run scoreboard players set #RandomSounds TwistConfig 1
 execute unless score #ReplaceOres TwistConfig matches 0 run scoreboard players set #ReplaceOres TwistConfig 1
+execute unless score #DoorKnocking TwistConfig matches 0 run scoreboard players set #DoorKnocking TwistConfig 1
 
 
 
@@ -29,6 +30,7 @@ scoreboard players set #TimeJumpTwist Chance 1
 scoreboard players set #MobFlickerSwapTwist Chance 1
 scoreboard players set #RandomSounds Chance 1
 scoreboard players set #ReplaceOres Chance 1
+scoreboard players set #DoorKnocking Chance 1
 
-
+function schizophrenia:twists/door_knocking/load
 schedule function schizophrenia:sanity 1200t replace
